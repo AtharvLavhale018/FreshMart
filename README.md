@@ -60,6 +60,7 @@ The JSP files are placed under the `WebContent` or `webapp` folder depending on 
 You can use this SQL snippet to create the required table:
 
 ```sql
+
 CREATE DATABASE freshmart_db;
 
 USE freshmart_db;
@@ -71,4 +72,11 @@ CREATE TABLE products (
     quantity INT NOT NULL,
     description TEXT
 );
+```
+-----------------------------------------------------------------------
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
 
