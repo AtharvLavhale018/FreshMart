@@ -28,13 +28,13 @@ Customers can:
 
 The codebase follows a clean package structure to separate responsibilities:
 
-src/
-└── com.jsp
-├── controller # Servlets (handles user requests and responses)
-├── dao # DAO (data access logic using JDBC)
-├── dto # DTO (JavaBeans for product and purchase info)
-├── initializer # Configuration classes (e.g., DB connection)
-└── util # (Optional) Utility classes like validators or helpers
+**src/**
+└── **com.jsp**
+├── **controller # Servlets (handles user requests and responses)**
+├── **dao # DAO (data access logic using JDBC)**
+├── **dto # DTO (JavaBeans for product and purchase info)**
+├── **initializer # Configuration classes (e.g., DB connection)**
+└── **util # (Optional) Utility classes like validators or helpers**
 
 
 
@@ -48,9 +48,9 @@ The JSP files are placed under the `WebContent` or `webapp` folder depending on 
 - **Java Servlets**
 - **JSP (Java Server Pages)**
 - **JDBC**
-- **MySQL** (or any relational DB)
-- **Apache Tomcat** (server)
-- **HTML/CSS** (basic UI styling)
+- **MySQL** 
+- **Apache Tomcat** 
+- **HTML/CSS** 
 - **MVC Design Pattern**
 
 ----------------------------------------------------------------------
