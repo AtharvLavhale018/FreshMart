@@ -77,6 +77,23 @@ CREATE TABLE products (
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### 🏠 Home Page  
+![Home Page](screenshots/Home%20Page.jpg)
+
+### 🛒 Add Product Form  
+![Add Product Form](screenshots/Add%20Product%20Form.jpg)
+
+### 📦 All Product List  
+![All Product List](screenshots/All%20Product%20List.jpg)
+
+### 🔎 Search Product  
+![Search Product](screenshots/Search%20Product.jpg)
+
+### 🧾 Purchase Page  
+![Purchase Page](screenshots/Purchase%20Page.jpg)
+
+### 💳 Bill Page  
+![Bill Page](screenshots/Bill%20Page.jpg)
+
 
 
