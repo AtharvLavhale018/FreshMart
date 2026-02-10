@@ -26,19 +26,23 @@ Customers can:
 
 ## 📂 Project Structure
 
-The codebase follows a clean package structure to separate responsibilities:
+```text
+src/
+└── com/
+    └── jsp/
+        ├── controller/
+        │   └── Servlets that handle user requests and responses
+        ├── dao/
+        │   └── Data Access Objects (DAO) responsible for JDBC operations
+        ├── dto/
+        │   └── Data Transfer Objects (JavaBeans for Product, Purchase, etc.)
+        ├── initializer/
+        │   └── Application configuration classes (e.g., database connection setup)
+        └── util/
+            └── Utility and helper classes (validators, common helpers, constants)
 
-**src/**
-└── **com.jsp**
-├── **controller # Servlets (handles user requests and responses)**
-├── **dao # DAO (data access logic using JDBC)**
-├── **dto # DTO (JavaBeans for product and purchase info)**
-├── **initializer # Configuration classes (e.g., DB connection)**
-└── **util # (Optional) Utility classes like validators or helpers**
 
 
-
-The JSP files are placed under the `WebContent` or `webapp` folder depending on your IDE setup.
 
 ---------------------------------------------------------------------
 
